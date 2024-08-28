@@ -33,7 +33,7 @@ This section lists all the necessary actions you should do before you begin the 
 * You must have set up an ESXi host for the SnapCenter Plug-in for VMware vSphere VM.
 * You must have downloaded the SnapCenter Plug-in for VMware vSphere .tar file.
 * You must have the login authentication details for your vCenter Server instance.
-* You must have a certificate with valid Public and Private Key files. For more information, refer to articles under https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/SnapCenter_Certificate_Resolution_Guide[Storage Certificate Management] section.
+* You must have a certificate with valid Public and Private Key files. For more information, refer to articles under https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/SnapCenter_Certificate_Resolution_Guide[Host/Client Certificate Management] section.
 * You must have logged out of and closed all browser sessions of vSphere client and deleted the browser cache to avoid any browser cache issue during the deployment of the SnapCenter Plug-in for VMware vSphere.
 * You must have enabled Transport Layer Security (TLS) in vCenter. Refer to the VMware documentation.
 * If you plan to perform backups in vCenters other than the one in which the SnapCenter Plug-in for VMware vSphere is deployed, then the ESXi server, the SnapCenter Plug-in for VMware vSphere, and each vCenter must be synchronized to the same time.
